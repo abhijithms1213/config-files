@@ -19,5 +19,10 @@ export PATH="$HOME/.tmuxifier/bin:$PATH"
 alias ii='nvim $(fzf -m --preview="bat --color=always {}")'
 alias f='cd $(fd --type d --hidden --exclude .git --exclude node_module --exclude .cache --exclude .npm --exclude .mozilla --exclude .meteor --exclude .nv | fzf)'
 export PATH="$HOME/.cargo/bin:$PATH"
+#for flutter firebase config
+export PATH="$PATH":"$HOME/fvm/default/bin"
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+
+export FIREFOX_EXECUTABLE=/usr/bin/firefox
 
 PS1='[\u@\h \W]\$ '

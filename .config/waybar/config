@@ -1,0 +1,53 @@
+{
+	"output": ["!eDP-1", "*"],
+   "layer": "top",
+    "position": "top",
+    "height": 20,
+    "spacing": 0,
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": [],
+    "modules-right": ["cpu", "memory", "custom/gpu", "clock", "battery"],
+    
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "format": "{id}",
+        "show-special": false,
+        "on-click": "activate",
+        "sort-by-number": true,
+        "active-only": false,
+        "persistent_workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        }
+    },
+    
+    "cpu": {
+        "interval": 1,
+        "format": "CPU {usage}%",
+        "tooltip": false
+    },
+    
+    "memory": {
+        "interval": 1,
+        "format": "RAM {used:0.1f}GiB",
+        "tooltip": false
+    },
+    
+    "clock": {
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format": "{:%H:%M}"
+    },
+    
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}%",
+        "format-charging": "{capacity}%",
+        "format-plugged": "{capacity}%"
+    }}

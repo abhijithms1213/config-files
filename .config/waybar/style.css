@@ -1,0 +1,93 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+#workspaces {
+    background: rgba(0, 0, 0, 0.3);
+    margin: 5px;
+    padding: 0px 5px;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+#workspaces button {
+    padding: 0 8px;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 0;
+}
+
+#workspaces button.active {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    border-radius: 10px;
+    border-bottom: 2px solid #ffffff;
+}
+
+#workspaces button.occupied {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+#workspaces button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+#cpu,
+#memory,
+#custom-gpu,
+#clock,
+#battery {
+    background: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+#cpu {
+    color: #61afef;
+}
+
+#memory {
+    color: #98c379;
+}
+
+#custom-gpu {
+    color: #e06c75;
+}
+
+#battery.charging {
+    color: #26A65B;
+}
+
+#battery.warning:not(.charging) {
+    background: rgba(255, 193, 7, 0.3);
+    color: #ffffff;
+}
+
+#battery.critical:not(.charging) {
+    background: rgba(220, 53, 69, 0.3);
+    color: #ffffff;
+    animation: blink 0.5s linear infinite alternate;
+}
+
+@keyframes blink {
+    to {
+        background: rgba(220, 53, 69, 0.5);
+    }
+}
+

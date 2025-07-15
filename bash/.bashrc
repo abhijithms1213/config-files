@@ -2,6 +2,8 @@
 # ~/.bashrc
 #
 
+export EDITOR=nvim
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 #export GDK_DPI_SCALE=1.5
@@ -24,5 +26,8 @@ export PATH="$PATH":"$HOME/fvm/default/bin"
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 
 export FIREFOX_EXECUTABLE=/usr/bin/firefox
+
+export JAVA_HOME=/usr/lib/jvm/java-24-openjdk
+export PATH=$JAVA_HOME/bin:$PATH
 
 PS1='[\u@\h \W]\$ '

@@ -6,7 +6,7 @@ return {
     lazy = false,
     opts = {
       flavour = "mocha", -- Options: latte, frappe, macchiato, mocha
-      transparent_background = true,
+      transparent_background = false,
       integrations = {
         cmp = true,
         gitsigns = true,

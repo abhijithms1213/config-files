@@ -1,0 +1,6 @@
+- [ ] notification screen not addedj
+- [ ] favorites not added
+- [ ] all shop categories , the nav page from fan page
+- [ ] supermarket home,categories,search
+- [ ] product details screen,shoping cart bags screen
+- [ ] restaurant screens

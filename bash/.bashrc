@@ -41,6 +41,6 @@ alias ls="eza --color=always --git --no-filesize --icons=always --no-time --no-u
 #zoxide
 eval "$(zoxide init bash)"
 alias cd="z"
-alias j="tmuxifier s wa"
-alias k="tmuxifier s wb"
-alias l="tmuxifier s wc"
+alias b="tmuxifier s wa"
+alias c="tmuxifier s wb"
+alias o="tmuxifier s wc"

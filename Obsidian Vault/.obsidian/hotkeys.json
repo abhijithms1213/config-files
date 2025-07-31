@@ -1,28 +1,4 @@
 {
-  "editor:set-heading-1": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "J"
-    }
-  ],
-  "daily-notes": [
-    {
-      "modifiers": [
-        "Meta"
-      ],
-      "key": "'"
-    }
-  ],
-  "colored-text:color-text": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "M"
-    }
-  ],
   "vimium:show-markers": [
     {
       "modifiers": [
@@ -31,13 +7,5 @@
       "key": "H"
     }
   ],
-  "editor:open-search-replace": [],
-  "editor:toggle-bullet-list": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "U"
-    }
-  ]
+  "editor:open-search-replace": []
 }

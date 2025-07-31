@@ -1,0 +1,2 @@
+- [[make-virtual-env]] : create a virtual env and activate it 
+	- [[install packages into env]] : installing packages to virtual environments

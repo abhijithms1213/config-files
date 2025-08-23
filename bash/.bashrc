@@ -1,7 +1,7 @@
 #
 # ~/.bashrc
 #
-
+#XDG_CURRENT_DESKTOP=sway
 export EDITOR=nvim
 
 # If not running interactively, don't do anything
@@ -37,7 +37,7 @@ alias f='cd $(fd --type d --hidden --exclude .git --exclude node_module --exclud
 # tldrc
 alias m="tldr"
 # eza commands
-alias ls="eza --color=always --git --no-filesize --icons=always --no-time --no-user --no-permissions"
+# alias ls="eza --color=always --git --no-filesize --icons=always --no-time --no-user --no-permissions"
 #zoxide
 eval "$(zoxide init bash)"
 alias cd="z"

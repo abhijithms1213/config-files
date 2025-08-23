@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "65740ad3118f9e20",
+        "id": "19cd7ab562dfb8ff",
         "type": "tabs",
         "children": [
           {
-            "id": "c3269adaa119d00d",
+            "id": "3ee6af579e55b589",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Areas/Programming Languages/Python/usable/usable.md.md",
+                "file": "03-Resources/Code Libraries/bash/tips and tricks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "usable.md"
+              "title": "tips and tricks"
+            }
+          },
+          {
+            "id": "23707cb58c7c031f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Resources/Code Libraries/bash/lets_start.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lets_start"
+            }
+          },
+          {
+            "id": "5e6eb9178f598b90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2025/2025-08-23.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-08-23"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -53,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tmux",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,6 +116,7 @@
       {
         "id": "ee8257f5e229cd09",
         "type": "tabs",
+        "dimension": 65.85603112840467,
         "children": [
           {
             "id": "426d0d535432aea8",
@@ -94,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Areas/Programming Languages/Python/usable/usable.md.md",
+                "file": "03-Resources/Code Libraries/bash/lets_start.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for usable.md"
+              "title": "Backlinks for lets_start"
             }
           },
           {
@@ -142,59 +172,87 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Areas/Linux Learning/Linux Learning Dashboard.md",
+                "file": "02-Areas/Data Structure/array/01 move zero's.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Linux Learning Dashboard"
+              "title": "Outline of 01 move zero's"
+            }
+          }
+        ]
+      },
+      {
+        "id": "17b5f181715f6248",
+        "type": "tabs",
+        "dimension": 34.143968871595334,
+        "children": [
+          {
+            "id": "01f854de29ba1396",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 292.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "iconic:Open rulebook": false
+      "templater-obsidian:Templater": false,
+      "daily-notes:Open today's daily note": false,
+      "graph:Open graph view": false
     }
   },
-  "active": "c3269adaa119d00d",
+  "active": "5e6eb9178f598b90",
   "lastOpenFiles": [
-    "02-Areas/Programming Languages/_Programming Dashboard.md",
-    "02-Areas/Programming Languages/Bash/Concepts/Bash concept.md",
-    "03-Resources/Code Libraries/python/importants/install packages into env.md",
-    "02-Areas/Programming Languages/Python/usable/usable.md.md",
+    "Daily Notes/2025/2025-08-18.md",
+    "Daily Notes/2025/2025-08-23.md",
+    "Daily Notes/2025/2025-08-17.md",
+    "Daily Notes/2025/2025-08-15.md",
+    "Daily Notes/2025/2025-08-14.md",
+    "_zettelkasten/Zettelkasten_Vault/setup_guide.md",
+    "_zettelkasten/Zettelkasten_Vault/templates/permanent_note.md",
+    "_zettelkasten/Zettelkasten_Vault/templates/literature_note.md",
+    "_zettelkasten/Zettelkasten_Vault/templates/daily_note.md",
+    "_zettelkasten/Zettelkasten_Vault/templates",
+    "_zettelkasten/Zettelkasten_Vault/attachments",
+    "_zettelkasten/Zettelkasten_Vault/04 Resources",
+    "_zettelkasten/Zettelkasten_Vault/03 Project Notes",
+    "_zettelkasten/Zettelkasten_Vault/02 Permanent Notes",
+    "_zettelkasten/Zettelkasten_Vault/01 Literature Notes",
+    "_zettelkasten/Zettelkasten_Vault/00 Inbox",
+    "_zettelkasten/Zettelkasten_Vault",
+    "_zettelkasten/Zettelkasten_Vault.zip",
+    "_zettelkasten",
+    "She.md",
+    "Daily Notes/2025/2025-08-13.md",
+    "02-Areas/Data Structure/array/Untitled.md",
+    "Daily Notes/2025/2025-08-12.md",
     "03-Resources/Code Libraries/python/importants/make-virtual-env.md",
-    "02-Areas/Programming Languages/Python/python.md.md",
-    "02-Areas/Programming Languages/Python/usable",
-    "02-Areas/Data Structure/array/02 Majority.md",
-    "02-Areas/Data Structure/array/01 move zero's.md",
-    "02-Areas/Linux Learning/Concepts/overview_concepts.md.md",
-    "02-Areas/Linux Learning/Linux Learning Dashboard.md",
-    "02-Areas/Linux Learning/Tools/overview_tools.md.md",
-    "Home.md",
-    "02-Areas/Programming Languages/C/C.md.md",
-    "02-Areas/Areas Overview.md",
-    "02-Areas/Linux Learning/Commands Overview/commands_overview.md.md",
-    "02-Areas/Programming Languages/Java/Java.md.md",
-    "02-Areas/Programming Languages/Bash/Bash.md.md",
-    "02-Areas/Programming Languages/Bash/Code Snippets/print.md",
-    "02-Areas/Programming Languages/C/Code Snippets/printFrom C.md",
-    "02-Areas/Programming Languages/C/Concepts/any concepts.md",
-    "03-Resources/Learning Materials/linux/Tools/ssh.md",
-    "03-Resources/Resources Dashboard.md",
-    "03-Resources/Learning Materials/linux/Concepts/ssh concept.md",
-    "03-Resources/Learning Materials/linux/Commands/any.md",
-    "tools.md"
+    "03-Resources/Code Libraries/python/importants/install packages into env.md",
+    "02-Areas/Data Structure/array/06 stock 2.md",
+    "02-Areas/Data Structure/array/04 stock.md",
+    "02-Areas/Data Structure/tips.md",
+    "Daily Notes/2025/2025-08-11.md",
+    "Daily Notes/2025/2025-08-10.md",
+    "Daily Notes/2025/2025-08-09.md",
+    "Templates/ds.md",
+    "Templates/d_daily.md",
+    "Daily Notes/2025/2025-08-08.md",
+    "03-Resources/Code Libraries/bash/lets_start.md",
+    "learn x in y language.md"
   ]
 }

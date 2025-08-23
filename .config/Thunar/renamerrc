@@ -10,7 +10,7 @@ OffsetMode=THUNAR_SBR_OFFSET_MODE_LEFT
 
 [ThunarSbrNumberRenamer]
 TextMode=THUNAR_SBR_TEXT_MODE_TN
-Text=
+Text=bcpl
 Mode=THUNAR_SBR_NUMBER_MODE_123
-Start=13
+Start=1
 

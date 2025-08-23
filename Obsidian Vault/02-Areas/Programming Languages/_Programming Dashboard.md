@@ -6,15 +6,12 @@
 - Code Snippets : 
 	- [[print]] : for print 
 	- 
-- Usables: 
-	- [[usable.md]] : 
-	- 
 	
 ---
 ### Bash
 - Concepts : 
 	- [[Bash concept]] : any concepts
-	- 
+	- x
 - Code Snippets : 
 	- [[print]] : for print 
 	- 

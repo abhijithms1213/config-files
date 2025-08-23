@@ -1,0 +1,2 @@
+- [[03-Resources/Code Libraries/python/importants/make-virtual-env]] : create a virtual env and activate it 
+	- [[03-Resources/Code Libraries/python/importants/install packages into env]] : installing packages to virtual environments

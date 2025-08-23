@@ -7,5 +7,21 @@
       "key": "H"
     }
   ],
-  "editor:open-search-replace": []
+  "editor:open-search-replace": [],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "'"
+    }
+  ],
+  "obsidian-emoji-toolbar:emoji-picker:open-picker": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "0"
+    }
+  ]
 }

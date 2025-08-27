@@ -5,5 +5,8 @@
   "spellcheck": false,
   "alwaysUpdateLinks": true,
   "showIndentGuide": true,
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "attachmentFolderPath": "./",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "_zettelkasten/Zettelkasten_Vault/00 Inbox"
 }

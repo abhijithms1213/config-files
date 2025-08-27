@@ -16,12 +16,13 @@
       "key": "'"
     }
   ],
-  "obsidian-emoji-toolbar:emoji-picker:open-picker": [
+  "obsidian-emoji-toolbar:emoji-picker:open-picker": [],
+  "insert-template": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
-      "key": "0"
+      "key": "I"
     }
   ]
 }

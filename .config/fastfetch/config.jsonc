@@ -1,101 +1,51 @@
 {
-	"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
 	"logo": {
-		"type": "auto",
-		"source": "/home/cj/Downloads/pngwing.com(10)(3).png"
+		"type": "small",
+		"padding": {
+				"top": 2
+		},
+		"color": {
+			"1": "blue",
+			"2": "magenta"
+		}
 	},
-      "modules": [
-        "break",
-        {
-            "type": "custom",
-            "format": "\u001b[90m┌──────────────────────Hardware──────────────────────┐"
-        },
-        {
-            "type": "host",
-            "key": " PC",
-            "keyColor": "green"
-        },
-        {
-            "type": "cpu",
-            "key": "│ ├",
-            "showPeCoreCount": true,
-            "keyColor": "green"
-        },
-        {
-            "type": "gpu",
-            "key": "│ ├󰍛",
-            "keyColor": "green"
-        },
-        {
-            "type": "memory",
-            "key": "│ ├󰍛",
-            "keyColor": "green"
-        },
-        {
-            "type": "disk",
-            "key": "└ └",
-            "keyColor": "green"
-        },
-        {
-            "type": "custom",
-            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
-        },
-        "break",
-        {
-            "type": "custom",
-            "format": "\u001b[90m┌──────────────────────Software──────────────────────┐"
-        },
-        {
-            "type": "os",
-            "key": " OS",
-            "keyColor": "yellow"
-        },
-        {
-            "type": "kernel",
-            "key": "│ ├",
-            "keyColor": "yellow"
-        },
-        {
-            "type": "packages",
-            "key": "│ ├󰏖",
-            "keyColor": "yellow"
-        },
-        {
-            "type": "shell",
-            "key": "└ └",
-            "keyColor": "yellow"
-        },
-        "break",
-        {
-            "type": "de",
-            "key": " DE",
-            "keyColor": "blue"
-        },
-        {
-            "type": "lm",
-            "key": "│ ├",
-            "keyColor": "blue"
-        },
-        {
-            "type": "wm",
-            "key": "│ ├",
-            "keyColor": "blue"
-        },
-        {
-            "type": "wmtheme",
-            "key": "│ ├󰉼",
-            "keyColor": "blue"
-        },
-        {
-            "type": "gpu",
-            "key": "└ └󰍛",
-            "format": "{3}",
-            "keyColor": "blue"
-        },
-        {
-            "type": "custom",
-            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
-        },
-        "break",
-    ]
+	"display": {
+		"color": {
+			"keys": "magenta",
+			"title": "blue"
+		},
+	},
+  "modules": [
+    "title",
+    "separator",
+		{
+			"type": "os",
+			"format": "{name}"
+		},
+    "kernel",
+		{
+			"type": "packages",
+			"format": "{pacman}"
+		},
+		{
+			"type": "wm",
+			"format": "{pretty-name}"
+		},
+		{
+			"type": "terminal",
+			"format": "{pretty-name}"
+		},
+		{
+			"type": "terminalfont",
+			// "format": "{name}"
+			"format": "CartographCF Nerd Font"
+		},
+		{
+			"type": "shell",
+			"format": "{pretty-name}"
+		},
+    "theme",
+		"uptime",
+  ]
 }

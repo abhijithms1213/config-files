@@ -4,105 +4,116 @@
     "type": "split",
     "children": [
       {
-        "id": "19cd7ab562dfb8ff",
+        "id": "ecbc81baf313c0ce",
         "type": "tabs",
         "children": [
           {
-            "id": "3ee6af579e55b589",
+            "id": "7271e5cc47a18d16",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Resources/Code Libraries/bash/tips and tricks.md",
+                "file": "Zettelkasten_Vault/02 Permanent Notes/what is visudo and how it works.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tips and tricks"
+              "title": "what is visudo and how it works"
             }
           },
           {
-            "id": "23707cb58c7c031f",
+            "id": "8c6030be4920b5e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025/2025-08-26.md",
+                "file": "Zettelkasten_Vault/02 Permanent Notes/linux listing commands to perform in systems services (systemctl).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-26"
+              "title": "linux listing commands to perform in systems services (systemctl)"
             }
           },
           {
-            "id": "571fe0aee08af07e",
+            "id": "75494587de4631e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_zettelkasten/Zettelkasten_Vault/00 Inbox/ok.md",
+                "file": "Zettelkasten_Vault/02 Permanent Notes/journalctl - log of a service.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ok"
+              "title": "journalctl - log of a service"
             }
           },
           {
-            "id": "1f302144b12a66af",
+            "id": "e23bbab78b83440f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_zettelkasten/Zettelkasten_Vault/00 Inbox/new.md",
+                "file": "Zettelkasten_Vault/02 Permanent Notes/bluetooth connect in arch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "new"
+              "title": "bluetooth connect in arch"
             }
           },
           {
-            "id": "27ecd013474ab886",
+            "id": "2e2db8273715762b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_zettelkasten/Zettelkasten_Vault/00 Inbox/done.md",
+                "file": "Zettelkasten_Vault/02 Permanent Notes/bluetoothctl - for access bluetooth.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "done"
-            }
-          },
-          {
-            "id": "700106aa11e7ac1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_zettelkasten/Zettelkasten_Vault/00 Inbox/oknow.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "oknow"
-            }
-          },
-          {
-            "id": "5e6eb9178f598b90",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "bluetoothctl - for access bluetooth"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
+      },
+      {
+        "id": "6dd39a201b52048d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02b312534a6def30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten_Vault/00 Inbox/nvim.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "nvim"
+            }
+          },
+          {
+            "id": "145841c0d684bce2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten_Vault/02 Permanent Notes/nmcli-connect wifi.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "nmcli-connect wifi"
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "create node project",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,7 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 247.5
   },
   "right": {
     "id": "75b22f13afb151ec",
@@ -168,7 +179,7 @@
       {
         "id": "ee8257f5e229cd09",
         "type": "tabs",
-        "dimension": 65.85603112840467,
+        "dimension": 62.93774319066148,
         "children": [
           {
             "id": "426d0d535432aea8",
@@ -176,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_zettelkasten/Zettelkasten_Vault/00 Inbox/oknow.md",
+                "file": "Zettelkasten_Vault/02 Permanent Notes/nmcli-connect wifi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +197,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for oknow"
+              "title": "Backlinks for nmcli-connect wifi"
             }
           },
           {
@@ -224,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Areas/Data Structure/array/01 move zero's.md",
+                "file": "_zettelkasten/Zettelkasten_Vault/02 Permanent Notes/Vagrant Commands.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01 move zero's"
+              "title": "Outline of Vagrant Commands"
             }
           }
         ]
@@ -238,7 +249,7 @@
       {
         "id": "17b5f181715f6248",
         "type": "tabs",
-        "dimension": 34.143968871595334,
+        "dimension": 37.06225680933852,
         "children": [
           {
             "id": "01f854de29ba1396",
@@ -254,7 +265,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 249.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -270,43 +281,43 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "700106aa11e7ac1c",
+  "active": "145841c0d684bce2",
   "lastOpenFiles": [
-    "_zettelkasten/Zettelkasten_Vault/00 Inbox/Untitled.md",
-    "_zettelkasten/Zettelkasten_Vault/00 Inbox/oknow.md",
-    "_zettelkasten/Zettelkasten_Vault/00 Inbox/done.md",
-    "_zettelkasten/Zettelkasten_Vault/00 Inbox/new.md",
-    "_zettelkasten/Zettelkasten_Vault/00 Inbox/news.md",
-    "_zettelkasten/Zettelkasten_Vault/templates/daily_note.md",
-    "Daily Notes/2025/2025-08-27.md",
-    "Obsidian shortcuts.md",
-    "_zettelkasten/Zettelkasten_Vault/00 Inbox/ok.md",
-    "_zettelkasten/Zettelkasten_Vault/00 Inbox/ajsf.md",
-    "_zettelkasten/Zettelkasten_Vault/00 Inbox/okk.md",
-    "_zettelkasten/Zettelkasten_Vault/00 Inbox/okkkks.md",
-    "Home.md",
-    "alkf.md",
-    "laflkas.md",
-    "new.md",
-    "okk.md",
-    "Daily Notes/2025/2025-08-26.md",
-    "ajlksf.md",
-    "learn x in y language.md",
-    "ok mhan.md",
-    "ok.md",
-    "_zettelkasten/Zettelkasten_Vault/templates/literature_note.md",
-    "03-Resources/Code Libraries/bash/lets_start.md",
-    "03-Resources/Code Libraries/bash/tips and tricks.md",
-    "_zettelkasten/Zettelkasten_Vault/templates/permanent_note.md",
-    "_zettelkasten/Zettelkasten_Vault/templates",
-    "_zettelkasten/Zettelkasten_Vault/attachments",
-    "_zettelkasten/Zettelkasten_Vault/04 Resources",
-    "_zettelkasten/Zettelkasten_Vault/03 Project Notes",
-    "_zettelkasten/Zettelkasten_Vault/02 Permanent Notes",
-    "_zettelkasten/Zettelkasten_Vault/01 Literature Notes",
-    "_zettelkasten/Zettelkasten_Vault/00 Inbox",
-    "_zettelkasten/Zettelkasten_Vault",
-    "_zettelkasten/Zettelkasten_Vault.zip",
-    "_zettelkasten"
+    "Zettelkasten_Vault/00 Inbox/nvim.md",
+    "Zettelkasten_Vault/00 Inbox/utils.md",
+    "Zettelkasten_Vault/02 Permanent Notes/node-initialize a project.md",
+    "Zettelkasten_Vault/02 Permanent Notes/bluetoothctl - for access bluetooth.md",
+    "Zettelkasten_Vault/02 Permanent Notes/bluetooth connect in arch.md",
+    "Zettelkasten_Vault/02 Permanent Notes/ps aux for list all processes currently running.md",
+    "Zettelkasten_Vault/02 Permanent Notes/less-read a file.md",
+    "Zettelkasten_Vault/02 Permanent Notes/kill _ID_SPECIFY.md",
+    "Zettelkasten_Vault/02 Permanent Notes/journalctl - log of a service.md",
+    "Zettelkasten_Vault/02 Permanent Notes/linux listing commands to perform in systems services (systemctl).md",
+    "Zettelkasten_Vault/02 Permanent Notes/what is visudo and how it works.md",
+    "Zettelkasten_Vault/02 Permanent Notes/&>>.md",
+    "Zettelkasten_Vault/02 Permanent Notes/nvim options explanation.md",
+    "Zettelkasten_Vault/02 Permanent Notes/links/GPT links.md",
+    "Zettelkasten_Vault/02 Permanent Notes/links",
+    "Zettelkasten_Vault/02 Permanent Notes/xdg-utils why xdg utils are important in their DE's.md",
+    "Zettelkasten_Vault/02 Permanent Notes/xdg-why it's widely hearing.md",
+    "Zettelkasten_Vault/02 Permanent Notes/X Desktop Group.md",
+    "Zettelkasten_Vault/02 Permanent Notes/os release details of a linux system.md",
+    "Zettelkasten_Vault/02 Permanent Notes/vim require command.md",
+    "Zettelkasten_Vault/02 Permanent Notes/nvim explorer's view order change.md",
+    "Zettelkasten_Vault/02 Permanent Notes/nvim default navigator.md",
+    "Zettelkasten_Vault/02 Permanent Notes/nvim % command for create new file.md",
+    "Zettelkasten_Vault/02 Permanent Notes/nvim % command.md",
+    "Zettelkasten_Vault/02 Permanent Notes/tree like view in directory.md",
+    "Zettelkasten_Vault/02 Permanent Notes/vagrant - destroy forcefully.md",
+    "tree like directory/tree.md",
+    "tree like directory",
+    "Zettelkasten_Vault/01 Literature Notes/her",
+    "dev",
+    "Zettelkasten_Vault/02 Permanent Notes/myn/commented",
+    "Zettelkasten_Vault/02 Permanent Notes/myn",
+    "Zettelkasten_Vault/templates",
+    "Zettelkasten_Vault/attachments",
+    "Zettelkasten_Vault/04 Resources",
+    "Zettelkasten_Vault/03 Project Notes"
   ]
 }

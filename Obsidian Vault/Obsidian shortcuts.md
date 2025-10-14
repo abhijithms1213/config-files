@@ -1,4 +1,0 @@
-- control + enter for enter a note
-- *ctl+shift+enter* for choose when **ctrl+o** is pressed
-- ctl+o for open fuzzy finder
-- *ad-quote* for specific **ad-monitoring** based

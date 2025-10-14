@@ -1,2 +1,0 @@
--  in neovim default file explorer is netrw  
-	- :Ex for explorer open, :e for edit a afile, % is for new file create 

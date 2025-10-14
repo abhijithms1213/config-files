@@ -24,5 +24,13 @@
       ],
       "key": "I"
     }
+  ],
+  "editor:toggle-bold": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
   ]
 }

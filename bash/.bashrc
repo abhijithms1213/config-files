@@ -44,3 +44,8 @@ alias cd="z"
 alias b="tmuxifier s wa"
 alias c="tmuxifier s wb"
 alias o="tmuxifier s wc"
+export ANDROID_HOME=/opt/android-sdk
+export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools
+# STARSHIP_DISABLE=true
+#  terminal setup
+# export $TERM=kitty

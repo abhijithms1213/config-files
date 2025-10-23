@@ -64,6 +64,55 @@
             }
           },
           {
+            "id": "145841c0d684bce2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten_Vault/02 Permanent Notes/vagrant multiple machine vagrant file.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "vagrant multiple machine vagrant file"
+            }
+          },
+          {
+            "id": "3709b892034cd64e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten_Vault/00 Inbox/utils.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "utils"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "6dd39a201b52048d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02b312534a6def30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten_Vault/02 Permanent Notes/grep-search within dirs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "grep-search within dirs"
+            }
+          },
+          {
             "id": "2e2db8273715762b",
             "type": "leaf",
             "state": {
@@ -76,16 +125,9 @@
               "icon": "lucide-file",
               "title": "bluetoothctl - for access bluetooth"
             }
-          }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "6dd39a201b52048d",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "02b312534a6def30",
+            "id": "93bb82396b041960",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -97,23 +139,9 @@
               "icon": "lucide-file",
               "title": "nvim"
             }
-          },
-          {
-            "id": "145841c0d684bce2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten_Vault/02 Permanent Notes/nmcli-connect wifi.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "nmcli-connect wifi"
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -145,7 +173,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "create node project",
+                "query": "/etc/",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -187,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten_Vault/02 Permanent Notes/nmcli-connect wifi.md",
+                "file": "Zettelkasten_Vault/00 Inbox/utils.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +225,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for nmcli-connect wifi"
+              "title": "Backlinks for utils"
             }
           },
           {
@@ -281,10 +309,22 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "145841c0d684bce2",
+  "active": "3709b892034cd64e",
   "lastOpenFiles": [
+    "Zettelkasten_Vault/02 Permanent Notes/useradd user and group.md",
     "Zettelkasten_Vault/00 Inbox/nvim.md",
     "Zettelkasten_Vault/00 Inbox/utils.md",
+    "Zettelkasten_Vault/02 Permanent Notes/grep-search within dirs.md",
+    "Zettelkasten_Vault/02 Permanent Notes/dart independant details screen and solve error when navigating.md",
+    "Zettelkasten_Vault/02 Permanent Notes/linux group file.md",
+    "Zettelkasten_Vault/02 Permanent Notes/id command.md",
+    "Zettelkasten_Vault/02 Permanent Notes/Users and Groups.md",
+    "Zettelkasten_Vault/02 Permanent Notes/maria db show database and view table.md",
+    "Zettelkasten_Vault/templates/permanent_note.md",
+    "Zettelkasten_Vault/02 Permanent Notes/what is maria db.md",
+    "Zettelkasten_Vault/02 Permanent Notes/vagrant why virtual machine's config written in the provider block.md",
+    "Zettelkasten_Vault/02 Permanent Notes/vagrant multiple machine vagrant file.md",
+    "Zettelkasten_Vault/02 Permanent Notes/nmcli-connect wifi.md",
     "Zettelkasten_Vault/02 Permanent Notes/node-initialize a project.md",
     "Zettelkasten_Vault/02 Permanent Notes/bluetoothctl - for access bluetooth.md",
     "Zettelkasten_Vault/02 Permanent Notes/bluetooth connect in arch.md",
@@ -298,18 +338,6 @@
     "Zettelkasten_Vault/02 Permanent Notes/nvim options explanation.md",
     "Zettelkasten_Vault/02 Permanent Notes/links/GPT links.md",
     "Zettelkasten_Vault/02 Permanent Notes/links",
-    "Zettelkasten_Vault/02 Permanent Notes/xdg-utils why xdg utils are important in their DE's.md",
-    "Zettelkasten_Vault/02 Permanent Notes/xdg-why it's widely hearing.md",
-    "Zettelkasten_Vault/02 Permanent Notes/X Desktop Group.md",
-    "Zettelkasten_Vault/02 Permanent Notes/os release details of a linux system.md",
-    "Zettelkasten_Vault/02 Permanent Notes/vim require command.md",
-    "Zettelkasten_Vault/02 Permanent Notes/nvim explorer's view order change.md",
-    "Zettelkasten_Vault/02 Permanent Notes/nvim default navigator.md",
-    "Zettelkasten_Vault/02 Permanent Notes/nvim % command for create new file.md",
-    "Zettelkasten_Vault/02 Permanent Notes/nvim % command.md",
-    "Zettelkasten_Vault/02 Permanent Notes/tree like view in directory.md",
-    "Zettelkasten_Vault/02 Permanent Notes/vagrant - destroy forcefully.md",
-    "tree like directory/tree.md",
     "tree like directory",
     "Zettelkasten_Vault/01 Literature Notes/her",
     "dev",

@@ -1,0 +1,20 @@
+return{
+  "williamboman/mason-lspconfig.nvim",
+  opts = {
+    ensure_installed = { "lua_ls", "clangd","ts_ls","svelte" ,"pyright"},
+  },
+  dependencies = {
+    { "williamboman/mason.nvim",
+      opts = {
+        ui = {
+          icons = {
+            package_installed = ' ',
+            package_pending = ' ',
+            package_uninstalled = ' ',
+          },
+        },
+      },
+    },
+    {"neovim/nvim-lspconfig"},
+  }
+}

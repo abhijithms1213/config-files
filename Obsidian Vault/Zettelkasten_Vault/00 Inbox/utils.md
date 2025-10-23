@@ -1,0 +1,1 @@
+- in nvim **tree side** use *x* for move a file or folder then *p* for paste

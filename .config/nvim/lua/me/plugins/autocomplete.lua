@@ -40,6 +40,8 @@ return {
       }),
 
       sources = cmp.config.sources({
+
+        { name = "nvim_lsp" }, -- source for autocompletion
         { name = "luasnip" }, -- snippets
         { name = "nvim_lsp" }, -- LSP completion
         { name = "buffer" },   -- text within buffer

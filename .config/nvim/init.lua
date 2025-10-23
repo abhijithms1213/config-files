@@ -1,5 +1,4 @@
 require("me.core")
 require("me.lazy")
-require("lsp.lsp_setup")
+require("me.lsp")
 
--- require("me.core.lsp")

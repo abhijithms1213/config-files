@@ -40,6 +40,10 @@ return{
     -- Config
     local config = {
       options = {
+        disabled_filetypes = {
+          statusline = { "NvimTree", "neo-tree" },
+          winbar = { "NvimTree", "neo-tree" },
+        },
         -- Disable sections and component separators
         component_separators = '',
         section_separators = '',

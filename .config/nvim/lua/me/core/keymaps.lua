@@ -10,10 +10,6 @@ keymap("n","<leader>nh",":nohl<CR>",{desc = "Clear search highlight"})
 keymap("n","<leader>+","<C-a>",{desc = "increament number's value"})
 keymap("n","<leader>-","<C-x>",{desc = "decrease number's value"})
 
--- Save & Quit shortcuts
-keymap("n", "<leader>w", ":w<CR>", { desc = "Save file" })
-keymap("n", "<leader>q", ":q<CR>", { desc = "Quit Neovim" })
-keymap("n", "<leader>qq", ":q!<CR>", { desc = "Force quit" })
 
 -- Reload current file
 keymap("n", "<leader>r", ":source %<CR>", { desc = "Reload current file" })
@@ -67,3 +63,48 @@ keymap({ "n", "v" }, "<leader>d", '"_d', { desc = "Delete without yanking" })
 
 -- Select all text
 keymap("n", "<C-a>", "gg<S-v>G", { desc = "Select all text in file" })
+
+-- Save & Quit shortcuts
+keymap("n", "<leader>w", ":w<CR>", { desc = "Save file" })
+keymap("n", "<leader>q", ":q<CR>", { desc = "Quit Neovim" })
+keymap("n", "<leader>qq", ":q!<CR>", { desc = "Force quit" })
+-- keymap("n", "<leader>qq", "<cmd>qall<CR>", { desc = "Quit all" })
+
+-- write and quite for capital W 
+vim.api.nvim_create_user_command("W", "w", {})
+vim.api.nvim_create_user_command("Wq", "wq", {})
+vim.api.nvim_create_user_command("WQ", "wq", {})
+vim.api.nvim_create_user_command("Wa", "wa", {})
+vim.api.nvim_create_user_command("WA", "wa", {})
+
+-- Save file
+vim.keymap.set('n', '<C-s>', ':w<CR>')     -- Normal mode
+vim.keymap.set('i', '<C-s>', '<Esc>:w<CR>a') -- Insert mode (save without leaving insert)
+vim.keymap.set('v', '<C-s>', '<Esc>:w<CR>gv') -- Visual mode (save and keep selection)
+--========================
+-- Little one from Primeagen to mass replace string in a file
+vim.keymap.set("n", "<leader>sm", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]], { silent = false ,desc = "Search & replace Word(Primeagen)"})
+
+-- TERMINAL OPEN
+--========================
+
+-- Exit terminal with Esc
+vim.keymap.set("t", "<Esc>", "<C-\\><C-N>")
+-- Open terminal in a horizontal split at the bottom
+vim.keymap.set("n", "<leader>st", function()
+  vim.cmd.vnew()                -- open a vertical split
+  vim.cmd.term()                -- start terminal
+  vim.cmd.wincmd("J")           -- move it to the bottom
+  vim.api.nvim_win_set_height(0, 10)  -- set height to 10 lines
+end, { desc = "Terminal: Open bottom split" })
+
+-- NORMAL mode: move cursor between windows
+vim.keymap.set("n", "<C-Up>", "<C-w>k", { desc = "Move to upper window" })
+vim.keymap.set("n", "<C-Down>", "<C-w>j", { desc = "Move to lower window" })
+
+-- TERMINAL mode: must first go to Normal mode, then move window
+vim.keymap.set("t", "<C-Up>", [[<C-\><C-N><C-w>k]], { desc = "Terminal → Upper window" })
+vim.keymap.set("t", "<C-Down>", [[<C-\><C-N><C-w>j]], { desc = "Terminal → Lower window" })
+
+-- TERMINAL CLOSE
+--========================

@@ -1,5 +1,8 @@
 i = int(input("hai"))
-print(i)
+rint(i)
+# alfsj
+
+
 
 
 

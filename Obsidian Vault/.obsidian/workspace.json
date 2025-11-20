@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "6b9c57b17ac2da79",
+        "id": "526d2c4938980069",
         "type": "tabs",
         "children": [
           {
@@ -13,15 +13,106 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten_Vault/02 Permanent Notes/Vagrant Commands.md",
+                "file": "Zettelkasten_Vault/00 Inbox/myn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vagrant Commands"
+              "title": "myn"
+            }
+          },
+          {
+            "id": "ed4021d2e40cfd11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten_Vault/02 Permanent Notes/nw ICMP protocol.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "nw ICMP protocol"
             }
           }
         ]
+      },
+      {
+        "id": "7bbd79d6268caada",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0bd8bf9cfacbfaf1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten_Vault/02 Permanent Notes/nw ICMP protocol.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "nw ICMP protocol"
+            }
+          },
+          {
+            "id": "94781d403127ddd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten_Vault/02 Permanent Notes/uuid why using.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "uuid why using"
+            }
+          },
+          {
+            "id": "3cfa98bce4cdf9db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten_Vault/02 Permanent Notes/fstab file using.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "fstab file using"
+            }
+          },
+          {
+            "id": "b90e3f83f601f8a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten_Vault/02 Permanent Notes/err ssh keygeneration error already exist key but that device changed credentials.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "err ssh keygeneration error already exist key but that device changed credentials"
+            }
+          },
+          {
+            "id": "616cb8fda37b8789",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten_Vault/00 Inbox/vbox.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "vbox"
+            }
+          }
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -53,7 +144,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/etc/",
+                "query": "docker running",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten_Vault/02 Permanent Notes/Vagrant Commands.md",
+                "file": "Zettelkasten_Vault/00 Inbox/myn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +196,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Vagrant Commands"
+              "title": "Backlinks for myn"
             }
           },
           {
@@ -191,32 +282,32 @@
   },
   "active": "b9d8fdfbbbbe0a27",
   "lastOpenFiles": [
-    "Zettelkasten_Vault/02 Permanent Notes/vagrant - distroy a box.md",
     "Zettelkasten_Vault/00 Inbox/utils.md",
+    "Zettelkasten_Vault/00 Inbox/devOps.md",
+    "Zettelkasten_Vault/00 Inbox/vbox.md",
+    "Zettelkasten_Vault/00 Inbox/utils2.md",
+    "Zettelkasten_Vault/00 Inbox/myn.md",
+    "Zettelkasten_Vault/02 Permanent Notes/ssh clone file from local to remote.md",
     "Zettelkasten_Vault/00 Inbox/nvim.md",
+    "Zettelkasten_Vault/02 Permanent Notes/1>>.md",
+    "Zettelkasten_Vault/02 Permanent Notes/&>>.md",
+    "Zettelkasten_Vault/02 Permanent Notes/ttr unimatrix matrix effect alter of cmatrix.md",
+    "Zettelkasten_Vault/02 Permanent Notes/err ssh keygeneration error already exist key but that device changed credentials.md",
+    "Zettelkasten_Vault/02 Permanent Notes/ssh-keygen - generate ssh key for ssh validation used in github.md",
+    "Zettelkasten_Vault/02 Permanent Notes/fstab file using.md",
+    "Zettelkasten_Vault/02 Permanent Notes/uuid why using.md",
+    "Zettelkasten_Vault/02 Permanent Notes/nw ICMP protocol.md",
+    "Zettelkasten_Vault/02 Permanent Notes/docker list running pocesses.md",
+    "Zettelkasten_Vault/02 Permanent Notes/docker images stored locally.md",
+    "Zettelkasten_Vault/02 Permanent Notes/docker lists all processes.md",
+    "Zettelkasten_Vault/02 Permanent Notes/ttc print processes to a log file using top.md",
+    "Zettelkasten_Vault/02 Permanent Notes/docker.md",
+    "Zettelkasten_Vault/02 Permanent Notes/nw traceroute use for tracing packets to destination.md",
+    "Zettelkasten_Vault/02 Permanent Notes/yay package install guide.md",
+    "Zettelkasten_Vault/02 Permanent Notes/Vagrant Commands.md",
+    "Zettelkasten_Vault/02 Permanent Notes/vagrant - distroy a box.md",
     "Zettelkasten_Vault/02 Permanent Notes/Untitled.md",
     "Zettelkasten_Vault/02 Permanent Notes/bluetoothctl - for access bluetooth.md",
-    "Zettelkasten_Vault/02 Permanent Notes/fastfetch preset add.md",
-    "Zettelkasten_Vault/02 Permanent Notes/GPT prompts.md",
-    "Zettelkasten_Vault/02 Permanent Notes/links/GPT links.md",
-    "Zettelkasten_Vault/03 Project Notes/project_ideas.md",
-    "Zettelkasten_Vault/02 Permanent Notes/check linux kernal info.md",
-    "Zettelkasten_Vault/02 Permanent Notes/pacman - get versions of currently installed tools.md",
-    "Zettelkasten_Vault/02 Permanent Notes/nvim - transparant bg add for colorscheme.md",
-    "Zettelkasten_Vault/02 Permanent Notes/nvim-lsp fully.md",
-    "Zettelkasten_Vault/02 Permanent Notes/nvim-neotree cut and paste file or dir.md",
-    "Zettelkasten_Vault/02 Permanent Notes/vagrant multiple machine vagrant file.md",
-    "Zettelkasten_Vault/02 Permanent Notes/id command.md",
-    "Zettelkasten_Vault/02 Permanent Notes/Users and Groups.md",
-    "Zettelkasten_Vault/02 Permanent Notes/dart-map to list convert based on groupBy.md",
-    "Zettelkasten_Vault/02 Permanent Notes/dart-groupBy.md",
-    "Zettelkasten_Vault/02 Permanent Notes/maria db show database and view table.md",
-    "Zettelkasten_Vault/02 Permanent Notes/useradd user and group.md",
-    "Zettelkasten_Vault/02 Permanent Notes/grep-search within dirs.md",
-    "Zettelkasten_Vault/02 Permanent Notes/dart independant details screen and solve error when navigating.md",
-    "Zettelkasten_Vault/02 Permanent Notes/linux group file.md",
-    "Zettelkasten_Vault/templates/permanent_note.md",
-    "Zettelkasten_Vault/02 Permanent Notes/what is maria db.md",
     "Zettelkasten_Vault/02 Permanent Notes/links",
     "tree like directory",
     "Zettelkasten_Vault/01 Literature Notes/her",

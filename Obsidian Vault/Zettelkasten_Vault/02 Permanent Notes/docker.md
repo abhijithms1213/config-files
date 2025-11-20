@@ -2,14 +2,14 @@
  **Tags:** #permanent #docker
  **Linked:** [[]], [[]]
 ## Question :
-- ######  *_replace__*  
+- ######  *what is docker*  
 ## Explanatio**n**
 ---
-- 
+- docker is a containarizing tool 
 ## Example / Application
 - 
 - 
 - 
 
 ## References
-- [[]]
+- [[docker images stored locally]]

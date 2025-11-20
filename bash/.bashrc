@@ -31,21 +31,42 @@ PS1='[\u@\h \W]\$ '
 
 # fzf command
 
-alias ii='nvim $(fzf -m --preview="bat --color=always {}")'
-alias f='cd $(fd --type d --hidden --exclude .git --exclude node_module --exclude .cache --exclude .npm --exclude .mozilla --exclude .meteor --exclude .nv | fzf)'
+# alias ii='nvim $(fzf -m --preview="bat --color=always {}")'
+# alias f='cd $(fd --type d --hidden --exclude .git --exclude node_module --exclude .cache --exclude .npm --exclude .mozilla --exclude .meteor --exclude .nv | fzf)'
 
 # tldrc
 alias m="tldr"
 # eza commands
-# alias ls="eza --color=always --git --no-filesize --icons=always --no-time --no-user --no-permissions"
+alias ls="eza --header --icons"
+alias alt="eza --long --sort modified --icons"
+alias al="eza --long --header --icons"
 #zoxide
 eval "$(zoxide init bash)"
 alias cd="z"
 alias b="tmuxifier s wa"
 alias c="tmuxifier s wb"
 alias o="tmuxifier s wc"
+alias ii="zi"
 export ANDROID_HOME=/opt/android-sdk
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools
 # STARSHIP_DISABLE=true
 #  terminal setup
 # export $TERM=kitty
+# kitty 
+# if [ -n "$KITTY_WINDOW_ID" ]; then
+#     /home/cj/configfiles/.config/kitty/scripts/random-color-preview.sh
+# fi
+#
+alias pr="/home/cj/configfiles/.config/kitty/scripts/random-color-preview.sh"
+    
+# if [ -n "$KITTY_WINDOW_ID" ]; then
+#     "nitch"
+# fi
+
+# alias .="nvim ."
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias nv="nvim ."
+alias n="nvim"

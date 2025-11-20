@@ -43,14 +43,14 @@ Unknown = '󰠥'
 [username]
 style_user = 'yellow bold'
 style_root = 'black bold'
-format = '[//](black bold) [$user](#2883ff) ' # 2883ff
+format = '[ ](black bold) [$user](#2883ff) ' # 2883ff
 disabled = false
 show_always = true
 
 # Shows the hostname
 [hostname]
 ssh_only = false
-format = '[//](black bold) [$hostname](bold blue) '
+format = '[ ](black bold) [$hostname](bold blue) '
 disabled = false
 
 # Shows current directory
@@ -60,7 +60,7 @@ truncation_symbol = '…/'
 home_symbol = '~'
 # read_only_style = '197'
 read_only = '  '
-format = '[//](black bold) [$path]($style)[$read_only]($read_only_style) '
+format = '[ ](black bold) [$path]($style)[$read_only]($read_only_style) '
 style = '#7ed1fb' # yellow bold
 
 
@@ -68,7 +68,7 @@ style = '#7ed1fb' # yellow bold
 [git_branch]
 # symbol = ' '
 symbol = ' '
-format = '[//](black bold) [$symbol\[$branch\]]($style) '
+format = '[  ](black bold) [$symbol\[$branch\]]($style) '
 # truncation_length = 0
 # truncation_symbol = '…/'
 style = 'bold green'
@@ -109,7 +109,7 @@ disabled = true
 [python]
 symbol = '󰌠'
 python_binary = ['./venv/bin/python', 'python', 'python3', 'python2']
-format = '[//](black bold) [${symbol} ${pyenv_prefix}(${version} )(\($virtualenv\) )]($style) '
+format = '[ ](black bold) [${symbol} ${pyenv_prefix}(${version} )(\($virtualenv\) )]($style) '
 
 
 [nodejs]

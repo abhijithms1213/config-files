@@ -37,7 +37,7 @@ PS1='[\u@\h \W]\$ '
 # tldrc
 alias m="tldr"
 # eza commands
-alias ls="eza --header --icons"
+alias ss="eza --header --icons"
 alias alt="eza --long --sort modified --icons"
 alias al="eza --long --header --icons"
 #zoxide
@@ -57,7 +57,7 @@ export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/plat
 #     /home/cj/configfiles/.config/kitty/scripts/random-color-preview.sh
 # fi
 #
-alias pr="/home/cj/configfiles/.config/kitty/scripts/random-color-preview.sh"
+# alias pr="/home/cj/configfiles/.config/kitty/scripts/random-color-preview.sh"
     
 # if [ -n "$KITTY_WINDOW_ID" ]; then
 #     "nitch"

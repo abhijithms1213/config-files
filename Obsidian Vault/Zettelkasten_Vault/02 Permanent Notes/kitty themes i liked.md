@@ -1,4 +1,4 @@
- **Date:**  *2025-10-06*
+	1 **Date:**  *2025-10-06*
  **Tags:** #permanent #linux #kitty
  **Linked:** [[]], [[]]
 ## Question :

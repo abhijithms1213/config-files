@@ -1,4 +1,4 @@
-## Inbox: _topic_
+ ## Inbox: _topic_
 
 **Date:** *2025-11-17*
 **Source:** {{Book / Podcast / Video / Article}}
@@ -167,4 +167,15 @@ This is why AWS tells:
 | **Data Center**       | Physical building with servers | Individual buildings |
 
 ---
-- 
+29-11-2025
+- elastic ip's are for get static ip's
+- not needed if u don't need **static ip** it won't change
+---
+stop an instance :
+	aws ec2 stop-instances --instance-ids your_instance_id
+fetch all running instances:
+	aws ec2 describe-instances --filters "Name=instance-state-name,Values=running"
+ **terminate**	
+	 aws ec2 terminate-instances --instance-ids i-1234567890abcdef0 
+*stop*
+	aws ec2 stop-instances --instance-ids i-1234567890abcdef0 

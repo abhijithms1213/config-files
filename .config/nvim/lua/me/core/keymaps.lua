@@ -72,6 +72,8 @@ keymap("n", "<leader>qq", ":q!<CR>", { desc = "Force quit" })
 
 -- write and quite for capital W 
 vim.api.nvim_create_user_command("W", "w", {})
+vim.api.nvim_create_user_command("W i", "w", {})
+vim.api.nvim_create_user_command("Wi", "w", {})
 vim.api.nvim_create_user_command("Wq", "wq", {})
 vim.api.nvim_create_user_command("WQ", "wq", {})
 vim.api.nvim_create_user_command("Wa", "wa", {})
@@ -108,3 +110,21 @@ vim.keymap.set("t", "<C-Down>", [[<C-\><C-N><C-w>j]], { desc = "Terminal → Low
 
 -- TERMINAL CLOSE
 --========================
+--========================
+-- prime configs
+vim.keymap.set("n", "<leader><leader>", function()
+    vim.cmd("so") -- save config and reload config
+end)
+vim.keymap.set("n", "<leader>xz", "<cmd>!chmod +x %<CR>", { silent = true })
+
+vim.keymap.set("n", "J", "mzJ`z")
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
+vim.keymap.set("n", "n", "nzzzv")
+vim.keymap.set("n", "N", "Nzzzv")
+vim.keymap.set("n", "=ap", "ma=ap'a")
+vim.keymap.set("n", "<leader>zig", "<cmd>LspRestart<cr>")
+
+--- ================
+
+-- vim.keymap.set('n', '<leader>u', vim.cmd)

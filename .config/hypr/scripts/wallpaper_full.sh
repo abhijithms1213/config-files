@@ -5,11 +5,14 @@ CACHE_DIR="$HOME/.cache/wallpaper-thumbs"
 CURRENT_WALLPAPER="$HOME/.cache/current_wallpaper"
 CURRENT_WALLPAPER_HDMI="$HOME/.cache/current_wallpaper_hdmi"
 
+# taking monitor
+whichMonitor=$(hyprctl monitors -j | jq -r '.[] | select(.focused==true)|.name')
+
 # Ensure cache directory exists
 mkdir -p "$CACHE_DIR"
 
 # Ensure swww daemon is running
-swww query || swww-daemon
+awww query || awww-daemon
 
 # Get list of images
 mapfile -t IMAGES < <(find "$WALLPAPER_DIR" -maxdepth 1 -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) | sort)
@@ -34,15 +37,21 @@ done
 MENU_LIST+="🎲 Random\n"
 
 # Rofi command with image preview
-choice=$(echo -en "$MENU_LIST" | rofi -dmenu \
+if [[ "${whichMonitor}" = "eDP-1" ]]; then
+  choice=$(echo -en "$MENU_LIST" | rofi -dmenu \
     -i \
     -p "Choose Wallpaper" \
-    -theme-str 'window {width: 800px; height: 600px;}' \
-    -theme-str 'listview {columns: 4; lines: 3;}' \
-    -theme-str 'element {padding: 10px; orientation: vertical;}' \
-    -theme-str 'element-icon {size: 150px;}' \
-    -theme-str 'element-text {horizontal-align: 0.5;}' \
-    -show-icons)
+    -show-icons \
+    -theme ~/.config/rofi/themesMine/wallpaper_template.rasi \
+    -theme-str 'window {height: 600;}')
+else
+  choice=$(echo -en "$MENU_LIST" | rofi -dmenu \
+    -i \
+    -p "Choose Wallpaper" \
+    -show-icons \
+    -theme ~/.config/rofi/themesMine/wallpaper_template.rasi \
+    -theme-str 'window {height: 980;}')
+fi
 
 # If user closes rofi → exit silently
 [[ -z "$choice" ]] && exit 0
@@ -57,12 +66,12 @@ else
 fi
 
 # Apply wallpaper
-swww img "$TARGET" --transition-fps 30 --transition-type any --transition-duration 3 -o "$1"
+awww img "$TARGET" -o "${whichMonitor}" -t random
 
 # Save current wallpaper path for persistence
-if [[ "$1" == "eDP-1" ]]; then
+if [[ "${whichMonitor}" == "eDP-1" ]]; then
   echo "$TARGET" > "$CURRENT_WALLPAPER"
-elif [[ "$1" == "HDMI-A-1" ]]; then
+elif [[ "${whichMonitor}" == "HDMI-A-1" ]]; then
   echo "$TARGET" > "${CURRENT_WALLPAPER_HDMI}"
 fi
 

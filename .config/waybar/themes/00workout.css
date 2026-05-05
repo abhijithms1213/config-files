@@ -1,0 +1,105 @@
+
+@define-color white      #FFF5F5;          /* CHANGED (was neutral white) */
+@define-color black      #0A0202;          /* CHANGED (deep red-black) */
+@define-color text       #FFD6D6;          /* CHANGED (warm text) */
+@define-color lightgray  #FF8A80;          /* CHANGED (warm gray) */
+@define-color darkgray   #3A0A0A;          /* CHANGED */
+@define-color red        #FF3C38;          /* CHANGED (strong workout red) */
+
+/* Transparency stays same, works fine for workout */
+@define-color bg-main        #1c0a08;
+@define-color bg-block       #1A0404;   /* CHANGED: block background */
+@define-color bg-block-alt   #220606;   /* CHANGED: hover / active */
+@define-color accent         #FF3C38;   /* CHANGED: workout red */
+@define-color text-main      #FFDADA;   /* CHANGED: warm text */
+@define-color black-transparent-1 rgba(10, 2, 2, 0.1);
+@define-color black-transparent-2 rgba(10, 2, 2, 0.2);
+@define-color black-transparent-3 rgba(10, 2, 2, 0.3);
+@define-color black-transparent-4 rgba(10, 2, 2, 0.4);
+@define-color black-transparent-5 rgba(10, 2, 2, 0.5);
+@define-color black-transparent-6 rgba(10, 2, 2, 0.6);
+@define-color black-transparent-7 rgba(10, 2, 2, 0.7);
+@define-color black-transparent-8 rgba(10, 2, 2, 0.8);
+@define-color black-transparent-9 rgba(10, 2, 2, 0.9);
+@define-color black-solid         rgba(10, 2, 2, 1.0); /* CHANGED */
+
+* {
+  font-family:
+    "Cabin",
+    Material Design Icons Desktop;
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+}
+window#waybar {
+  background-color: @bg-main;
+  color: @text;
+  border-radius: 0;
+}
+
+tooltip {
+  background: @black-solid;         /* CHANGED */
+  border: 1px solid @red;           /* CHANGED */
+  border-radius: 0;
+}
+tooltip label {
+  color: @text;                     /* CHANGED */
+}
+
+#workspaces button {
+  background-color: transparent;
+  color: @lightgray;                /* CHANGED */
+  transition: all 0.3s ease;
+}
+
+#workspaces button:hover {
+  color: @white;                    /* CHANGED */
+}
+
+#workspaces button.focused,
+#workspaces button.active {
+  color: @white;
+  background: rgba(255, 60, 56, 0.25);   /* CHANGED */
+  transition: all 0.3s ease;
+}
+
+#workspaces button.urgent {
+  background-color: @red;
+  color: @black;
+}
+
+
+#submap,
+#mode,
+#tray,
+#cpu,
+#memory,
+#backlight,
+#pulseaudio.audio,
+#pulseaudio.microphone,
+#network.wlo1,
+#network.eno1,
+#bluetooth,
+#battery,
+#clock,
+#mpd,
+#custom-media,
+#custom-notification {
+  background-color: transparent;
+  color: @text;              /* CHANGED */
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+#pulseaudio-slider trough,
+#backlight-slider trough {
+  background-color: @black;        /* CHANGED */
+}
+
+#pulseaudio-slider highlight,
+#backlight-slider highlight {
+  border: 1px solid @red;          /* CHANGED */
+  background-color: @red;          /* CHANGED */
+}

@@ -8,5 +8,11 @@
   "showInlineTitle": true,
   "attachmentFolderPath": "./",
   "newFileLocation": "folder",
-  "newFileFolderPath": "Zettelkasten_Vault/02 Permanent Notes"
+  "newFileFolderPath": "ecommerce - p-notes",
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

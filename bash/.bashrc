@@ -8,8 +8,12 @@ export EDITOR=nvim
 [[ $- != *i* ]] && return
 #export GDK_DPI_SCALE=1.5
 if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
-  exec Hyprland
+  exec start-hyprland
 fi
+
+# fish
+exec fish
+
 eval "$(starship init bash)"
 alias grep='grep --color=auto'
 # the below line will do tmuxifier use
@@ -70,3 +74,21 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias nv="nvim ."
 alias n="nvim"
+alias q="exit"
+alias w="whatsapp-cli"
+alias ws="whatsapp-cli sync"
+
+# Created by `pipx` on 2025-11-21 07:43:37
+export PATH="$PATH:/home/cj/.local/bin"
+# carapace auto complete
+export CARAPACE_BRIDGES='bash' # optional
+source <(carapace _carapace)
+
+# yazi
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	command yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	[ "$cwd" != "$PWD" ] && [ -d "$cwd" ] && builtin cd -- "$cwd"
+	rm -f -- "$tmp"
+}

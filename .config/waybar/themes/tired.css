@@ -1,0 +1,52 @@
+
+@define-color bg rgba(6, 10, 20, 0.92);
+@define-color text #cfd9ff;
+@define-color muted #7a88b8;
+@define-color accent #3b5bdb;
+@define-color accent-soft rgba(20, 24, 32, 0.9);
+* {
+  font-family: Iosevka Raven;
+  font-size: 16px;
+  color: @text;
+  padding: 0;
+  margin: 10;
+}
+
+window#waybar {
+  background-color: @transparent;
+  color: @text;
+  border-radius: 22px;
+}
+
+/* Workspaces */
+#workspaces {
+  margin: 4px 0;
+  padding: 26px 04px;
+}
+
+#workspaces button {
+  color: @muted;
+}
+
+#workspaces button.active {
+  color: @text;
+  background: @accent-soft;
+  border-radius: 26px;
+}
+
+/* Modules */
+#cpu, #memory, #battery, #clock {
+  color: @text;
+}
+
+/* Tray */
+#tray {
+  opacity: 1.0;
+}
+
+/* Notifications */
+#custom-notification {
+  margin: 5px 0;
+  padding: 6px 0;
+  transition: all 0.25s ease;
+}

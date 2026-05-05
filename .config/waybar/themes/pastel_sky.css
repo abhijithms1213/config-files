@@ -1,0 +1,153 @@
+/* ================= COLORS ================= */
+
+@define-color transparent rgba(235, 219, 178, 0);
+
+@define-color bg     #608EC4;   /* blue modules */
+@define-color bg2    #DFA7BF;   /* pink modules */
+
+@define-color text   #608ec4;   /* text for blue bg */
+@define-color text2  #DFA7BF;   /* text for pink bg */
+
+@define-color non-active #f7e9ef;
+@define-color button     #608ec4;
+
+@define-color shadow1 rgba(0, 0, 0, 0.45);
+@define-color shadow2 rgba(0, 0, 0, 0.2);
+
+/* ================= GLOBAL ================= */
+
+* {
+  font-family: "Hack Nerd Font";
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+/* ================= WAYBAR ================= */
+
+window#waybar {
+  background-color: @transparent;
+  border-radius: 5px;
+}
+
+/* ================= TOOLTIP ================= */
+
+tooltip {
+  background-color: @bg2;
+  border-radius: 8px;
+}
+
+tooltip label {
+  color: @text;
+}
+
+/* ================= WORKSPACES ================= */
+
+#workspaces {
+  background-color: @bg2;
+  color: @text;
+  border-radius: 12px;
+  box-shadow:
+    1px 1px 2px 0.5px @shadow1,
+    -5px -5px 1px @shadow2 inset;
+  margin: 5px 0;
+  padding: 6px 6px;
+}
+
+#workspaces button {
+  background: transparent;
+  color: @non-active;
+  padding: 4px 0;
+  margin: 2px 0;
+  transition: all 0.25s ease;
+}
+
+#workspaces button.active {
+  color: @button;
+}
+
+#workspaces button.focused {
+  color: @bg;
+  background-color: @button;
+  border-radius: 10px;
+}
+
+/* ================= MODULE BASE ================= */
+
+#clock,
+#memory,
+#network,
+#pulseaudio,
+#temperature,
+#battery,
+#cpu,
+#tray,
+#custom-updates,
+#custom-notification,
+#custom-powermenu,
+#custom-dotfiles,
+#custom-theme {
+  border-radius: 12px;
+  margin: 5px 0;
+  padding: 6px 0;
+  box-shadow:
+    1px 1px 2px 0.5px @shadow1,
+    -5px -5px 1px @shadow2 inset;
+  transition: all 0.25s ease;
+}
+
+/* ================= COLOR ASSIGNMENT ================= */
+
+/* Blue background / pink text */
+#clock,
+#network,
+#temperature,
+#custom-updates,
+#custom-notification,
+#custom-theme {
+  background-color: @bg;
+  color: @text2;
+}
+
+/* Pink background / blue text */
+#memory,
+#pulseaudio,
+#custom-powermenu,
+#custom-dotfiles {
+  background-color: @bg2;
+  color: @text;
+}
+
+/* ================= AUDIO ================= */
+
+#pulseaudio.muted {
+  color: @non-active;
+}
+
+/* ================= CLOCK ================= */
+
+#clock {
+  /* line-height: 1.2; */
+}
+
+/* ================= TRAY ================= */
+
+#tray {
+  padding: 4px 0;
+}
+
+#tray menu {
+  background-color: @bg2;
+  border-radius: 8px;
+}
+
+/* ================= EDGE SPACING FIX ================= */
+
+.modules-left > widget:first-child > * {
+  margin-top: 8px;
+}
+
+.modules-right > widget:last-child > * {
+  margin-bottom: 8px;
+}

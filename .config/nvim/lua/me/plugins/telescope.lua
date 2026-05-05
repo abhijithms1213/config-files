@@ -29,5 +29,12 @@ return{
     vim.keymap.set('n', '<leader>fo', builtin.oldfiles, { desc = 'Telescope help tags' })
     vim.keymap.set('n', '<leader>fc', builtin.grep_string, { desc = 'Telescope help tags' })
     vim.keymap.set('n', '<leader>ft', ":TodoTelescope<cr>", { desc = 'Find todos' })
-  end
+  end,
+  vim.keymap.set('n', '<leader>b', function()
+  require('telescope.builtin').buffers({
+    sort_mru=true,
+    ignore_current_buffer=true,
+    show_all_buffers=false
+  })
+end)
 }

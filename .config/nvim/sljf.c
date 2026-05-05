@@ -1,7 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+void fun(void)
+{
+}
 int main()
 {
+  int j;
+  j=2;
   int i;
   printf("lsj");
   i=24;

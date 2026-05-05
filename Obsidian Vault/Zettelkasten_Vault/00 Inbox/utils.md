@@ -52,3 +52,28 @@ input27::mute/       input3::numlock/     input6::scrolllock/
 input27::numlock/    input3::scrolllock/
 
 ```
+---
+## ec2 overview
+#### dashboard
+overall info of ec2 instance  *zone info* etc are mentioned
+### Instances 
+instances are the **vboxes** so it can be created from 
+**instances**
+### Images
+images are like *vagrant images/boxes* get from website
+here AMI
+### Groups & Ntw
+groups are act like firewall 
+**Elastic ip** is providing *public ip* to the *instance*
+```bash
+ss -tunlp 
+# to show port attached to which port's. also mean that open ports
+s
+```
+
+---
+projects
+
+project to track my personal project just ai to make deadlines
+frequent asking and quotes , motivation what's the progress 
+not everyday but in laptop ask at some times , like notification on laptop

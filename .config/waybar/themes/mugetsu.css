@@ -1,0 +1,150 @@
+/* ================= COLORS ================= */
+
+@define-color transparent rgba(235, 219, 178, 0);
+@define-color bg        #c2c2c2;
+@define-color text      #0d0d0d;
+@define-color border    #0d0d0d;
+@define-color focused   #0d0d0d;
+@define-color button    #90908F;
+
+/* ================= GLOBAL ================= */
+
+* {
+  font-family: "Hack Nerd Font";
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+/* ================= WAYBAR ================= */
+
+window#waybar {
+  background-color: @transparent;
+  border-radius: 5px;
+  /* border: 2px solid @border; */
+  color: @text;
+}
+
+/* ================= TOOLTIP ================= */
+
+tooltip {
+  background-color: @bg;
+  border: 2px solid @border;
+}
+
+tooltip label {
+  color: @text;
+}
+
+/* ================= WORKSPACES ================= */
+
+#workspaces {
+  background-color: @bg;
+  color: @text;
+  border: 2px solid @border;
+  border-radius: 0px 12px 0px 12px;
+  margin: 5px 0;
+  padding: 6px 6px;
+}
+
+#workspaces button {
+  background: transparent;
+  color: @button;
+  padding: 4px 0;
+  margin: 2px 0;
+  transition: all 0.25s ease;
+}
+
+#workspaces button.active {
+  color: @text;
+}
+
+#workspaces button.focused {
+  color: @bg;
+  background-color: @focused;
+  border-radius: 10px;
+}
+
+/* ================= MODULE BASE ================= */
+
+#clock,
+#memory,
+#network,
+#pulseaudio,
+#battery,
+#cpu,
+#tray,
+#custom-updates,
+#custom-powermenu,
+#custom-dotfiles,
+#custom-notification {
+  background-color: @bg;
+  color: @text;
+  border: 2px solid @border;
+  margin: 5px 0;
+  padding: 6px 0;
+  transition: all 0.25s ease;
+}
+
+/* ================= CORNER STYLE ================= */
+
+#clock,
+#network,
+#custom-updates {
+  border-radius: 0px 12px 0px 12px;
+}
+
+#memory,
+#pulseaudio,
+#custom-powermenu,
+#custom-dotfiles {
+  border-radius: 12px 0px 12px 0px;
+}
+
+/* ================= BATTERY ================= */
+
+#battery {
+  border-radius: 12px 0px 12px 0px;
+}
+
+#battery.warning {
+  color: #d79921;
+}
+
+#battery.critical {
+  color: #cc241d;
+}
+
+/* ================= AUDIO ================= */
+
+#pulseaudio.muted {
+  background-color: @bg;
+  color: @button;
+}
+
+/* ================= CLOCK ================= */
+
+#clock {
+}
+
+/* ================= TRAY ================= */
+
+#tray {
+  padding: 4px 0;
+}
+
+#tray menu {
+  background-color: @bg;
+  border: 2px solid @border;
+}
+
+/* ================= EDGE SPACING FIX ================= */
+
+.modules-left > widget:first-child > * {
+  margin-top: 8px;
+}
+
+.modules-right > widget:last-child > * {
+  margin-bottom: 8px;
+}

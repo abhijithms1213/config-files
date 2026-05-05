@@ -1,4 +1,4 @@
-console.log("slf");
+osle.log("slf");
 
 let lsjf=23
 

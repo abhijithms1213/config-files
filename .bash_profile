@@ -12,3 +12,6 @@ export JAVA_HOME=/usr/lib/jvm/java-24-openjdk
 ## [/Completion]
 eval "$(tmuxifier init -)"
 eval "$(fzf --bash)"
+
+# Created by `pipx` on 2025-11-21 07:43:37
+export PATH="$PATH:/home/cj/.local/bin"

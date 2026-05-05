@@ -1,0 +1,180 @@
+/* ================= COLORS ================= */
+
+@define-color transparent rgba(235, 219, 178, 0);
+@define-color bg #32302f;
+
+@define-color gruvbox-red     #ea6962;
+@define-color gruvbox-blue    #7daea3;
+@define-color gruvbox-green   #a9b665;
+@define-color gruvbox-purple  #606A86;
+@define-color gruvbox-yellow  #d8a657;
+@define-color gruvbox-orange  #e78a4e;
+@define-color gruvbox-cyan    #89b482;
+@define-color gruvbox-magenta #d3869b;
+@define-color gruvbox-pink    #CB6F75;
+@define-color gruvbox-white   #d4be98;
+
+@define-color button          #a89984;
+
+/* Pain palette (kept for identity / future use) */
+@define-color pain-indigo    #6e5d8e;
+@define-color pain-purple    #916097;
+
+/* ================= GLOBAL ================= */
+
+* {
+  font-family: "Hack Nerd Font";
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+/* ================= WAYBAR ================= */
+
+window#waybar {
+  background-color: @transparent;
+  border-radius: 5px;
+}
+
+/* ================= TOOLTIP ================= */
+
+tooltip {
+  background-color: @bg;
+}
+
+tooltip label {
+  color: @gruvbox-white;
+}
+
+/* ================= WORKSPACES ================= */
+
+#workspaces {
+  background-color: @bg;
+  color: @pain-indigo;
+  border-radius: 3px;
+  margin: 5px 0;
+  padding: 6px 6px;
+}
+
+#workspaces button {
+  background: transparent;
+  color: @button;
+  padding: 4px 0;
+  margin: 2px 0;
+  transition: all 0.25s ease;
+}
+
+#workspaces button.active {
+  color: @gruvbox-blue;
+}
+
+#workspaces button.focused {
+  color: @bg;
+  background-color: @gruvbox-blue;
+  border-radius: 10px;
+}
+
+/* ================= MODULE BASE ================= */
+
+#clock,
+#temperature,
+#memory,
+#network,
+#pulseaudio,
+#battery,
+#cpu,
+#tray,
+#custom-updates,
+#custom-powermenu,
+#custom-dotfiles,
+#custom-theme,
+#custom-notification {
+  background-color: @bg;
+  border-radius: 3px;
+  margin: 5px 0;
+  padding: 6px 0;
+  transition: all 0.25s ease;
+}
+
+/* ================= MODULE COLORS ================= */
+
+#clock {
+  color: @gruvbox-pink;
+}
+
+#temperature {
+  color: @gruvbox-orange;
+}
+
+#memory {
+  color: @gruvbox-magenta;
+}
+
+#network {
+  color: @gruvbox-green;
+}
+
+#pulseaudio {
+  color: @gruvbox-yellow;
+}
+
+#pulseaudio.muted {
+  color: @button;
+}
+
+#custom-updates {
+  color: @gruvbox-purple;
+}
+
+#custom-powermenu {
+  color: @gruvbox-red;
+}
+
+#custom-dotfiles {
+  color: @gruvbox-blue;
+}
+
+#custom-theme {
+  color: @gruvbox-white;
+}
+
+/* ================= BATTERY ================= */
+
+#battery {
+  color: @gruvbox-cyan;
+}
+
+#battery.warning {
+  color: @gruvbox-yellow;
+}
+
+#battery.critical {
+  color: @gruvbox-red;
+}
+
+/* ================= CLOCK ================= */
+
+#clock {
+  /* line-height: 1.2; */
+}
+
+/* ================= TRAY ================= */
+
+#tray {
+  padding: 4px 0;
+}
+
+#tray menu {
+  background-color: @bg;
+}
+
+/* ================= EDGE SPACING FIX ================= */
+
+.modules-left > widget:first-child > * {
+  margin-top: 8px;
+}
+
+.modules-right > widget:last-child > * {
+  margin-bottom: 8px;
+}

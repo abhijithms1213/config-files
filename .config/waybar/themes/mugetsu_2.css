@@ -1,0 +1,125 @@
+/* ================= COLORS ================= */
+
+@define-color transparent rgba(194, 194, 194, 0);
+@define-color bg        #c2c2c2;
+@define-color text      #0d0d0d;
+@define-color border    #0d0d0d;
+@define-color focused   #0d0d0d;
+@define-color button    #90908F;
+
+/* ================= GLOBAL ================= */
+
+* {
+  font-family: "Hack Nerd Font";
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+/* ================= WAYBAR ================= */
+
+window#waybar {
+  background-color: @transparent;
+  border-radius: 30px;
+  color: @text;
+}
+
+/* ================= TOOLTIP ================= */
+
+tooltip {
+  background-color: @bg;
+  border: 2px solid @border;
+  border-radius: 12px;
+}
+
+tooltip label {
+  color: @text;
+}
+
+/* ================= WORKSPACES ================= */
+
+#workspaces {
+  background-color: @bg;
+  color: @text;
+  border: 2px solid @border;
+  border-radius: 30px;
+  margin: 5px 0;
+  padding: 6px 6px;
+}
+
+#workspaces button {
+  background: transparent;
+  color: @button;
+  padding: 4px 0;
+  margin: 2px 0;
+  transition: all 0.25s ease;
+}
+
+#workspaces button.active {
+  color: @text;
+}
+
+#workspaces button.focused {
+  color: @bg;
+  background-color: @focused;
+  border-radius: 10px;
+}
+
+/* ================= MODULE BASE ================= */
+
+#clock,
+#temperature,
+#memory,
+#network,
+#pulseaudio,
+#battery,
+#cpu,
+#tray,
+#custom-updates,
+#custom-powermenu,
+#custom-dotfiles,
+#custom-theme,
+#custom-notification {
+  background-color: @bg;
+  color: @text;
+  border: 2px solid @border;
+  border-radius: 30px;
+  margin: 5px 0;
+  padding: 6px 0;
+  transition: all 0.25s ease;
+}
+
+/* ================= AUDIO ================= */
+
+#pulseaudio.muted {
+  color: @button;
+}
+
+/* ================= CLOCK ================= */
+
+#clock {
+  /* line-height: 1.2; */
+}
+
+/* ================= TRAY ================= */
+
+#tray {
+  padding: 4px 0;
+}
+
+#tray menu {
+  background-color: @bg;
+  border: 2px solid @border;
+  border-radius: 12px;
+}
+
+/* ================= EDGE SPACING FIX ================= */
+
+.modules-left > widget:first-child > * {
+  margin-top: 8px;
+}
+
+.modules-right > widget:last-child > * {
+  margin-bottom: 8px;
+}

@@ -4,7 +4,7 @@
 **Source:** {{Book / Podcast / Video / Article}}
 **Describe**:  __
 ### Highlights / Thoughts
-╰⎯ sudo usermod -aG vboxusers cj -added for Make sure your user is in the `vboxusers` group to have proper permissions to use VirtualBox devices:
+ sudo usermod -aG vboxusers cj -added for Make sure your user is in the `vboxusers` group to have proper permissions to use VirtualBox devices:
 
 ---
 - vm dependancies

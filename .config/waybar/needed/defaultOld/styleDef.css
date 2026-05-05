@@ -1,0 +1,117 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 13px;
+}
+window#waybar {
+	background: #292b2e;
+	color: #fdf6e3;
+}
+
+#custom-right-arrow-dark,
+#custom-left-arrow-dark {
+	color: #1a1a1a;
+}
+#custom-right-arrow-light,
+#custom-left-arrow-light {
+	color: #292b2e;
+	background: #1a1a1a;
+}
+
+#workspaces,
+#clock.1,
+#clock.2,
+#clock.3,
+#pulseaudio,
+#memory,
+#cpu,
+#battery,
+#disk,
+#tray {
+	background: #1a1a1a;
+}
+
+
+#pulseaudio {
+	color: #268bd2;
+}
+#memory {
+	color: #2aa198;
+}
+#cpu {
+	color: #6c71c4;
+}
+#battery {
+	color: #859900;
+}
+#disk {
+	color: #b58900;
+}
+
+#clock,
+#pulseaudio,
+#memory,
+#cpu,
+#battery,
+#disk {
+	padding: 0 10px;
+}
+#clock.2 {
+      font-weight: bold;
+      color: #00BFFF; 
+      /* animation: pulse 2s infinite alternate; */
+    }
+    @keyframes pulse {
+      from {
+        color: #00BFFF;
+      }
+      to {
+        color: #1E90FF;
+      }
+    }
+    #window:hover {
+  background-color: rgba(70, 75, 90, 0.9);
+}
+
+/* 工作区激活状态高亮 */
+#workspaces button:hover{
+  background-color: rgba(97, 175, 239, 0.2);
+  padding: 2px 8px;
+  margin: 0 2px;
+}
+
+#workspaces button.active {
+  background-color: #61afef; /* 蓝色高亮 */
+  color: #ffffff;
+  padding: 0px 8px;
+  margin: 2px 2px;
+  border-radius: 1px;
+}
+
+/* 未激活工作区按钮 */
+#workspaces button {
+  background: transparent;
+  border: none;
+  color: #888888;
+  padding: 2px 8px;
+}
+  /* "hyprland/workspaces": { */
+  /*   "disable-scroll": false, */
+  /*   "all-outputs": true, */
+  /*   "format": "{icon}", */
+  /*   "on-click": "activate", */
+  /*   "persistent-workspaces": { */
+  /*   "*":[1,2,3,4,5,6,7,8,9] */
+  /*   }, */
+  /*   "format-icons": { */
+  /*     "1": "󰣇", */
+  /*     "2": "󰈹", */
+  /*     "3": "󰇮", */
+  /*     "4": "", */
+  /*     "5": "", */
+  /*     "6": "", */
+  /*     "7": "", */
+  /*     "8": "", */
+  /*     "9": "󰖳", */
+  /*     "default": "" */
+  /*   } */
+  /* }, */

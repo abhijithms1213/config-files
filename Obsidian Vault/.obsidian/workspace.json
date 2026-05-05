@@ -13,106 +13,144 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten_Vault/00 Inbox/myn.md",
+                "file": "Zettelkasten_Vault/02 Permanent Notes/bluetooth connect in arch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "myn"
+              "title": "bluetooth connect in arch"
             }
           },
           {
-            "id": "ed4021d2e40cfd11",
+            "id": "326075a969fc69ae",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten_Vault/02 Permanent Notes/nw ICMP protocol.md",
+                "file": "ecommerce/start - ecommerce our company.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "nw ICMP protocol"
-            }
-          }
-        ]
-      },
-      {
-        "id": "7bbd79d6268caada",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0bd8bf9cfacbfaf1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten_Vault/02 Permanent Notes/nw ICMP protocol.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "nw ICMP protocol"
+              "title": "start - ecommerce our company"
             }
           },
           {
-            "id": "94781d403127ddd6",
+            "id": "b1b550d78e72b678",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten_Vault/02 Permanent Notes/uuid why using.md",
+                "file": "ecommerce/start - ecommerce our company.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "uuid why using"
+              "title": "start - ecommerce our company"
             }
           },
           {
-            "id": "3cfa98bce4cdf9db",
+            "id": "cb8abd3023abb7f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten_Vault/02 Permanent Notes/fstab file using.md",
+                "file": "ecommerce/start - ecommerce our company.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "fstab file using"
+              "title": "start - ecommerce our company"
             }
           },
           {
-            "id": "b90e3f83f601f8a4",
+            "id": "9698a7f0a89a68b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten_Vault/02 Permanent Notes/err ssh keygeneration error already exist key but that device changed credentials.md",
+                "file": "ecommerce - qns/products add in shops.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "err ssh keygeneration error already exist key but that device changed credentials"
+              "title": "products add in shops"
             }
           },
           {
-            "id": "616cb8fda37b8789",
+            "id": "64f1333bfc71d6ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten_Vault/00 Inbox/vbox.md",
+                "file": "ecommerce/phase 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vbox"
+              "title": "phase 1"
+            }
+          },
+          {
+            "id": "9046db76903205e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ecommerce/phase 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "phase 1"
+            }
+          },
+          {
+            "id": "fa75bea215d0cdef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ecommerce/phase 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "phase 1"
+            }
+          },
+          {
+            "id": "c18f9336e07026d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ecommerce - p-notes/Untitled.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "c2c8c431bb664424",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ecommerce - p-notes/Untitled 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 1"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -144,7 +182,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker running",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,17 +224,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten_Vault/00 Inbox/myn.md",
+                "file": "ecommerce - p-notes/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for myn"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -280,43 +318,43 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "b9d8fdfbbbbe0a27",
+  "active": "c18f9336e07026d2",
   "lastOpenFiles": [
-    "Zettelkasten_Vault/00 Inbox/utils.md",
-    "Zettelkasten_Vault/00 Inbox/devOps.md",
-    "Zettelkasten_Vault/00 Inbox/vbox.md",
-    "Zettelkasten_Vault/00 Inbox/utils2.md",
-    "Zettelkasten_Vault/00 Inbox/myn.md",
-    "Zettelkasten_Vault/02 Permanent Notes/ssh clone file from local to remote.md",
-    "Zettelkasten_Vault/00 Inbox/nvim.md",
-    "Zettelkasten_Vault/02 Permanent Notes/1>>.md",
-    "Zettelkasten_Vault/02 Permanent Notes/&>>.md",
-    "Zettelkasten_Vault/02 Permanent Notes/ttr unimatrix matrix effect alter of cmatrix.md",
-    "Zettelkasten_Vault/02 Permanent Notes/err ssh keygeneration error already exist key but that device changed credentials.md",
-    "Zettelkasten_Vault/02 Permanent Notes/ssh-keygen - generate ssh key for ssh validation used in github.md",
-    "Zettelkasten_Vault/02 Permanent Notes/fstab file using.md",
-    "Zettelkasten_Vault/02 Permanent Notes/uuid why using.md",
+    "ecommerce - p-notes/phase 1 user-seller flow.md",
+    "ecommerce - p-notes/Untitled 1.md",
+    "ecommerce - p-notes/Untitled.md",
+    "ecommerce/phase 4.md",
+    "ecommerce - ideas/meen vandi track and add today's meen.md",
+    "templates/ecommerce-template.md",
+    "ecommerce/start - ecommerce our company.md",
+    "ecommerce/phase 2.md",
+    "ecommerce/phase 3.md",
+    "ecommerce/phase 1.md",
+    "ecommerce - qns/gpt_approach_add_product.md",
+    "ecommerce - qns/products add in shops.md",
+    "ecommerce - p-notes/test our.md",
+    "templates",
+    "ecommerce - p-notes",
+    "ecommerce - qns",
     "Zettelkasten_Vault/02 Permanent Notes/nw ICMP protocol.md",
-    "Zettelkasten_Vault/02 Permanent Notes/docker list running pocesses.md",
-    "Zettelkasten_Vault/02 Permanent Notes/docker images stored locally.md",
-    "Zettelkasten_Vault/02 Permanent Notes/docker lists all processes.md",
-    "Zettelkasten_Vault/02 Permanent Notes/ttc print processes to a log file using top.md",
-    "Zettelkasten_Vault/02 Permanent Notes/docker.md",
-    "Zettelkasten_Vault/02 Permanent Notes/nw traceroute use for tracing packets to destination.md",
-    "Zettelkasten_Vault/02 Permanent Notes/yay package install guide.md",
-    "Zettelkasten_Vault/02 Permanent Notes/Vagrant Commands.md",
-    "Zettelkasten_Vault/02 Permanent Notes/vagrant - distroy a box.md",
+    "ecommerce - ideas",
+    "Zettelkasten_Vault/02 Permanent Notes/Untitled 5.md",
+    "Zettelkasten_Vault/02 Permanent Notes/Untitled 4.md",
+    "ecommerce",
+    "Zettelkasten_Vault/02 Permanent Notes/Untitled 3.md",
+    "Zettelkasten_Vault/02 Permanent Notes/uuid why using.md",
+    "Zettelkasten_Vault/02 Permanent Notes/fstab file using.md",
+    "Zettelkasten_Vault/02 Permanent Notes/err ssh keygeneration error already exist key but that device changed credentials.md",
+    "Zettelkasten_Vault/00 Inbox/devOps.md",
+    "Zettelkasten_Vault/02 Permanent Notes/Untitled 2.md",
+    "Zettelkasten_Vault/02 Permanent Notes/Untitled 1.md",
     "Zettelkasten_Vault/02 Permanent Notes/Untitled.md",
-    "Zettelkasten_Vault/02 Permanent Notes/bluetoothctl - for access bluetooth.md",
+    "Zettelkasten_Vault/02 Permanent Notes/ttr unimatrix matrix effect alter of cmatrix.md",
+    "Zettelkasten_Vault/00 Inbox/message paste.md",
     "Zettelkasten_Vault/02 Permanent Notes/links",
     "tree like directory",
     "Zettelkasten_Vault/01 Literature Notes/her",
     "dev",
-    "Zettelkasten_Vault/02 Permanent Notes/myn/commented",
-    "Zettelkasten_Vault/02 Permanent Notes/myn",
-    "Zettelkasten_Vault/templates",
-    "Zettelkasten_Vault/attachments",
-    "Zettelkasten_Vault/04 Resources",
-    "Zettelkasten_Vault/03 Project Notes"
+    "Zettelkasten_Vault/02 Permanent Notes/myn/commented"
   ]
 }

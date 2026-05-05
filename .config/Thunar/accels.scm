@@ -1,4 +1,4 @@
-; thunar GtkAccelMap rc-file         -*- scheme -*-
+; Thunar GtkAccelMap rc-file         -*- scheme -*-
 ; this file is an automated accelerator map dump
 ;
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-by-type" "")
@@ -109,6 +109,7 @@
 ; (gtk_accel_path "<Actions>/ThunarStandardView/duplicate" "")
 ; (gtk_accel_path "<Actions>/ThunarActionManager/trash-delete-2" "KP_Delete")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/back-alt1" "BackSpace")
+; (gtk_accel_path "<Actions>/ThunarBookmarks/00a51ad9335ee0b0d98abfed9c2489ef" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/create-folder" "<Primary><Shift>n")
 ; (gtk_accel_path "<Actions>/ThunarWindow/open-home" "<Alt>Home")
 ; (gtk_accel_path "<Actions>/ThunarWindow/switch-focused-split-view-pane" "")
@@ -116,6 +117,7 @@
 ; (gtk_accel_path "<Actions>/ThunarStandardView/set-default-app" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/empty-trash" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/preferences" "")
+; (gtk_accel_path "<Actions>/ThunarBookmarks/d7044d539894d84e7a07680065493a46" "")
 ; (gtk_accel_path "<Actions>/ThunarActionManager/delete" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/open-network" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-side-pane-tree" "<Primary>e")
